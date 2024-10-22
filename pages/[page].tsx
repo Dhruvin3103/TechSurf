@@ -25,7 +25,7 @@ export default function Page(props: Props) {
   }, [page]);
 
   return getEntry.page_components ? (
-    <>hekek
+    <>
     <RenderComponents
       pageComponents={getEntry.page_components}
       contentTypeUid='page'
