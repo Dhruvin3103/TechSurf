@@ -77,16 +77,16 @@ function MyApp(props: Props) {
       {isNoLayoutRoute() ? (
         <Component {...pageProps} />
       ) : (
-        <Layout
-          header={header}
-          footer={footer}
-          page={page}
-          blogPost={blogPost}
-          blogList={blogList}
-          entries={entries}
-        >
+        // <Layout
+        //   header={header}
+        //   footer={footer}
+        //   page={page}
+        //   blogPost={blogPost}
+        //   blogList={blogList}
+        //   entries={entries}
+        // >
           <Component {...pageProps} />
-        </Layout>
+        
       )}
     </>
   );
